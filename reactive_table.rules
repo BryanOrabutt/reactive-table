@@ -1,0 +1,145 @@
+
+(rules PCB reactive_table
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 10724)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.8)
+      (against_preferred_direction_trace_costs 2.8)
+    )
+    (layer_rule In1.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+    (layer_rule In2.Cu
+      (active off)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.8)
+      (against_preferred_direction_trace_costs 2.8)
+    )
+  )
+  (rule
+    (width 152.4)
+    (clear 152.6)
+    (clear 76.2 (type smd_to_turn_gap))
+    (clear 38.2 (type smd_smd))
+  )
+  (padstack "Via[0-3]_508:254_um"
+    (shape
+      (circle F.Cu 508.0 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 508.0 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 508.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 508.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-3]_508:254_um" "Via[0-3]_508:254_um" default
+  )
+  (via 
+    "Via[0-3]_508:254_um-kicad_default" "Via[0-3]_508:254_um" "kicad_default"
+  )
+  (via 
+    "Via[0-3]_508:254_um-AVDD" "Via[0-3]_508:254_um" AVDD
+  )
+  (via 
+    "Via[0-3]_508:254_um-DVDD" "Via[0-3]_508:254_um" DVDD
+  )
+  (via_rule
+    default "Via[0-3]_508:254_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-3]_508:254_um-kicad_default"
+  )
+  (via_rule
+    AVDD "Via[0-3]_508:254_um-AVDD"
+  )
+  (via_rule
+    DVDD "Via[0-3]_508:254_um-DVDD"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 152.4)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    GND "/LED Drivers & MUXs/IR0" "Net-(D11-Pad2)" "Net-(D12-Pad2)" "Net-(D13-Pad2)" "Net-(D14-Pad2)" "Net-(D15-Pad2)" "Net-(D16-Pad2)"
+    "Net-(D17-Pad2)" "Net-(D18-Pad2)" "/LED Drivers & MUXs/IR15" "Net-(D11-Pad1)" "Net-(D12-Pad1)" "Net-(D13-Pad1)" "Net-(D14-Pad1)" "Net-(D15-Pad1)"
+    "Net-(D16-Pad1)" "Net-(D17-Pad1)" "Net-(D18-Pad1)" "Net-(D19-Pad1)" "Net-(D20-Pad1)" "Net-(D21-Pad1)" "Net-(D22-Pad1)" "/LED Drivers & MUXs/IR7"
+    "/LED Drivers & MUXs/IR6" "/LED Drivers & MUXs/IR5" "/LED Drivers & MUXs/IR4" "/LED Drivers & MUXs/IR3" "/LED Drivers & MUXs/IR2" "/LED Drivers & MUXs/IR1" /MUX0 /MUX1
+    /MUX3 /MUX2 "/LED Drivers & MUXs/IR14" "/LED Drivers & MUXs/IR13" "/LED Drivers & MUXs/IR12" "/LED Drivers & MUXs/IR11" "/LED Drivers & MUXs/IR10" "/LED Drivers & MUXs/IR9"
+    "/LED Drivers & MUXs/IR8" "Net-(D24-Pad1)" "Net-(D25-Pad1)" "Net-(D26-Pad1)" "Net-(D27-Pad1)" "Net-(D29-Pad1)" "Net-(D30-Pad1)" "Net-(D31-Pad1)"
+    "Net-(D32-Pad1)" "Net-(D33-Pad1)" "Net-(D34-Pad1)" "Net-(D35-Pad1)" "Net-(D36-Pad1)" "Net-(D44-Pad1)" "Net-(D44-Pad2)" "Net-(D45-Pad1)"
+    "Net-(D45-Pad2)" "Net-(D46-Pad1)" "Net-(D46-Pad2)" "Net-(D47-Pad1)" "Net-(D47-Pad2)" "Net-(D49-Pad1)" "Net-(D49-Pad2)" "Net-(D50-Pad1)"
+    "Net-(D50-Pad2)" "Net-(D51-Pad1)" "Net-(D51-Pad2)" "Net-(D52-Pad1)" "Net-(D52-Pad2)" "Net-(D53-Pad2)" "Net-(D54-Pad2)" "Net-(D55-Pad2)"
+    "Net-(D56-Pad2)" "Net-(D57-Pad2)" "Net-(D58-Pad2)" "Net-(D59-Pad2)" "Net-(D60-Pad2)" "Net-(D61-Pad2)" "Net-(D62-Pad2)" "Net-(D63-Pad2)"
+    "Net-(D64-Pad2)" "Net-(D65-Pad2)" "Net-(D66-Pad2)" "Net-(D67-Pad2)" "Net-(D68-Pad2)" "Net-(D79-Pad2)" "Net-(D80-Pad2)" "Net-(D81-Pad2)"
+    "Net-(D82-Pad2)" "Net-(D83-Pad2)" "Net-(D84-Pad2)" "Net-(D85-Pad2)" "Net-(D86-Pad2)" "Net-(D89-Pad2)" "Net-(D90-Pad2)" "Net-(D91-Pad2)"
+    "Net-(D93-Pad2)" /BRD7 /BRD6 /BRD5 /BRD4 /BRD3 /BRD2 /BRD1
+    /LE /CLK /Microcontroller/SWDIO /Microcontroller/SWDCLK /Microcontroller/RST "/Microcontroller/PSOC_SDO" "/LED Drivers & MUXs/DRIVER_SDI" "Net-(R25-Pad2)"
+    "Net-(R26-Pad2)" "Net-(R51-Pad2)" "Net-(R52-Pad2)" "Net-(R53-Pad2)" "Net-(R54-Pad2)" "Net-(R55-Pad2)" "Net-(R56-Pad2)" "Net-(R57-Pad2)"
+    "Net-(R58-Pad2)" "Net-(R59-Pad2)" "Net-(R60-Pad2)" "Net-(R61-Pad2)" "Net-(R62-Pad2)" "Net-(R63-Pad2)" "Net-(R64-Pad2)" "Net-(R65-Pad2)"
+    "Net-(R66-Pad2)" "Net-(U2-Pad1)" "Net-(U2-Pad2)" "Net-(U2-Pad11)" "Net-(U2-Pad12)" "Net-(U2-Pad22)" "Net-(U2-Pad23)" "Net-(U2-Pad24)"
+    "/LED Drivers & MUXs/sdo" "Net-(U3-Pad13)" "Net-(U4-Pad13)" /Microcontroller/BOARD0 /SDI "/LED Drivers & MUXs/DRIVER_SDO" "Net-(C5-Pad1)" "Net-(D23-Pad1)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 152.4)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+  (class AVDD
+    +12V
+    (clearance_class AVDD)
+    (via_rule AVDD)
+    (rule
+      (width 914.4)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+  (class DVDD
+    +5V
+    (clearance_class DVDD)
+    (via_rule DVDD)
+    (rule
+      (width 457.2)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+)

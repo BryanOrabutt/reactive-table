@@ -5,8 +5,8 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 4
-Title ""
-Date ""
+Title "LEDs & Photodiode Multiplexer"
+Date "2019-05-28"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1330,28 +1330,6 @@ F 3 "" H 1200 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R17
-U 1 1 5B73CC95
-P 1600 4500
-F 0 "R17" H 1630 4520 50  0000 L CNN
-F 1 "1K5" H 1630 4460 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 1600 4500 50  0001 C CNN
-F 3 "" H 1600 4500 50  0001 C CNN
-	1    1600 4500
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR053
-U 1 1 5B75332A
-P 1750 4500
-F 0 "#PWR053" H 1750 4250 50  0001 C CNN
-F 1 "GND" H 1750 4350 50  0000 C CNN
-F 2 "" H 1750 4500 50  0001 C CNN
-F 3 "" H 1750 4500 50  0001 C CNN
-	1    1750 4500
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:D_Photo D28
 U 1 1 5B753DDA
 P 2150 4500
@@ -1361,28 +1339,6 @@ F 2 "LEDs:LED_D5.0mm" H 2100 4500 50  0001 C CNN
 F 3 "" H 2100 4500 50  0001 C CNN
 	1    2150 4500
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R19
-U 1 1 5B753DE1
-P 2500 4500
-F 0 "R19" H 2530 4520 50  0000 L CNN
-F 1 "1K5" H 2530 4460 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 2500 4500 50  0001 C CNN
-F 3 "" H 2500 4500 50  0001 C CNN
-	1    2500 4500
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR054
-U 1 1 5B753DEB
-P 2650 4500
-F 0 "#PWR054" H 2650 4250 50  0001 C CNN
-F 1 "GND" H 2650 4350 50  0000 C CNN
-F 2 "" H 2650 4500 50  0001 C CNN
-F 3 "" H 2650 4500 50  0001 C CNN
-	1    2650 4500
-	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D_Photo D38
@@ -1396,28 +1352,6 @@ F 3 "" H 3000 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R21
-U 1 1 5B753F3D
-P 3400 4500
-F 0 "R21" H 3430 4520 50  0000 L CNN
-F 1 "1K5" H 3430 4460 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 3400 4500 50  0001 C CNN
-F 3 "" H 3400 4500 50  0001 C CNN
-	1    3400 4500
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR055
-U 1 1 5B753F47
-P 3550 4500
-F 0 "#PWR055" H 3550 4250 50  0001 C CNN
-F 1 "GND" H 3550 4350 50  0000 C CNN
-F 2 "" H 3550 4500 50  0001 C CNN
-F 3 "" H 3550 4500 50  0001 C CNN
-	1    3550 4500
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:D_Photo D40
 U 1 1 5B754028
 P 3950 4500
@@ -1427,28 +1361,6 @@ F 2 "LEDs:LED_D5.0mm" H 3900 4500 50  0001 C CNN
 F 3 "" H 3900 4500 50  0001 C CNN
 	1    3950 4500
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R23
-U 1 1 5B75402F
-P 4300 4500
-F 0 "R23" H 4330 4520 50  0000 L CNN
-F 1 "1K5" H 4330 4460 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 4300 4500 50  0001 C CNN
-F 3 "" H 4300 4500 50  0001 C CNN
-	1    4300 4500
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR056
-U 1 1 5B754039
-P 4450 4500
-F 0 "#PWR056" H 4450 4250 50  0001 C CNN
-F 1 "GND" H 4450 4350 50  0000 C CNN
-F 2 "" H 4450 4500 50  0001 C CNN
-F 3 "" H 4450 4500 50  0001 C CNN
-	1    4450 4500
-	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D_Photo D42
@@ -1462,28 +1374,6 @@ F 3 "" H 4800 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R27
-U 1 1 5B754407
-P 5200 4500
-F 0 "R27" H 5230 4520 50  0000 L CNN
-F 1 "1K5" H 5230 4460 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 5200 4500 50  0001 C CNN
-F 3 "" H 5200 4500 50  0001 C CNN
-	1    5200 4500
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR057
-U 1 1 5B754411
-P 5350 4500
-F 0 "#PWR057" H 5350 4250 50  0001 C CNN
-F 1 "GND" H 5350 4350 50  0000 C CNN
-F 2 "" H 5350 4500 50  0001 C CNN
-F 3 "" H 5350 4500 50  0001 C CNN
-	1    5350 4500
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:D_Photo D48
 U 1 1 5B754840
 P 5750 4500
@@ -1493,28 +1383,6 @@ F 2 "LEDs:LED_D5.0mm" H 5700 4500 50  0001 C CNN
 F 3 "" H 5700 4500 50  0001 C CNN
 	1    5750 4500
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R29
-U 1 1 5B754847
-P 6100 4500
-F 0 "R29" H 6130 4520 50  0000 L CNN
-F 1 "1K5" H 6130 4460 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 6100 4500 50  0001 C CNN
-F 3 "" H 6100 4500 50  0001 C CNN
-	1    6100 4500
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR058
-U 1 1 5B754850
-P 6250 4500
-F 0 "#PWR058" H 6250 4250 50  0001 C CNN
-F 1 "GND" H 6250 4350 50  0000 C CNN
-F 2 "" H 6250 4500 50  0001 C CNN
-F 3 "" H 6250 4500 50  0001 C CNN
-	1    6250 4500
-	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D_Photo D73
@@ -1528,28 +1396,6 @@ F 3 "" H 6600 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R30
-U 1 1 5B7550CA
-P 7000 4500
-F 0 "R30" H 7030 4520 50  0000 L CNN
-F 1 "1K5" H 7030 4460 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 7000 4500 50  0001 C CNN
-F 3 "" H 7000 4500 50  0001 C CNN
-	1    7000 4500
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR059
-U 1 1 5B7550D3
-P 7150 4500
-F 0 "#PWR059" H 7150 4250 50  0001 C CNN
-F 1 "GND" H 7150 4350 50  0000 C CNN
-F 2 "" H 7150 4500 50  0001 C CNN
-F 3 "" H 7150 4500 50  0001 C CNN
-	1    7150 4500
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:D_Photo D78
 U 1 1 5B755690
 P 7550 4500
@@ -1559,28 +1405,6 @@ F 2 "LEDs:LED_D5.0mm" H 7500 4500 50  0001 C CNN
 F 3 "" H 7500 4500 50  0001 C CNN
 	1    7550 4500
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R47
-U 1 1 5B755697
-P 7900 4500
-F 0 "R47" H 7930 4520 50  0000 L CNN
-F 1 "1K5" H 7930 4460 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 7900 4500 50  0001 C CNN
-F 3 "" H 7900 4500 50  0001 C CNN
-	1    7900 4500
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR060
-U 1 1 5B7556A0
-P 8050 4500
-F 0 "#PWR060" H 8050 4250 50  0001 C CNN
-F 1 "GND" H 8050 4350 50  0000 C CNN
-F 2 "" H 8050 4500 50  0001 C CNN
-F 3 "" H 8050 4500 50  0001 C CNN
-	1    8050 4500
-	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D_Photo D95
@@ -1594,28 +1418,6 @@ F 3 "" H 8400 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R48
-U 1 1 5B755796
-P 8800 4500
-F 0 "R48" H 8830 4520 50  0000 L CNN
-F 1 "1K5" H 8830 4460 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 8800 4500 50  0001 C CNN
-F 3 "" H 8800 4500 50  0001 C CNN
-	1    8800 4500
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR061
-U 1 1 5B75579F
-P 8950 4500
-F 0 "#PWR061" H 8950 4250 50  0001 C CNN
-F 1 "GND" H 8950 4350 50  0000 C CNN
-F 2 "" H 8950 4500 50  0001 C CNN
-F 3 "" H 8950 4500 50  0001 C CNN
-	1    8950 4500
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:D_Photo D96
 U 1 1 5B755888
 P 9350 4500
@@ -1625,28 +1427,6 @@ F 2 "LEDs:LED_D5.0mm" H 9300 4500 50  0001 C CNN
 F 3 "" H 9300 4500 50  0001 C CNN
 	1    9350 4500
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R49
-U 1 1 5B75588F
-P 9700 4500
-F 0 "R49" H 9730 4520 50  0000 L CNN
-F 1 "1K5" H 9730 4460 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 9700 4500 50  0001 C CNN
-F 3 "" H 9700 4500 50  0001 C CNN
-	1    9700 4500
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR062
-U 1 1 5B755898
-P 9850 4500
-F 0 "#PWR062" H 9850 4250 50  0001 C CNN
-F 1 "GND" H 9850 4350 50  0000 C CNN
-F 2 "" H 9850 4500 50  0001 C CNN
-F 3 "" H 9850 4500 50  0001 C CNN
-	1    9850 4500
-	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D_Photo D97
@@ -1660,28 +1440,6 @@ F 3 "" H 10250 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R50
-U 1 1 5B755C66
-P 10650 4500
-F 0 "R50" H 10680 4520 50  0000 L CNN
-F 1 "1K5" H 10680 4460 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 10650 4500 50  0001 C CNN
-F 3 "" H 10650 4500 50  0001 C CNN
-	1    10650 4500
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR063
-U 1 1 5B755C6F
-P 10800 4500
-F 0 "#PWR063" H 10800 4250 50  0001 C CNN
-F 1 "GND" H 10800 4350 50  0000 C CNN
-F 2 "" H 10800 4500 50  0001 C CNN
-F 3 "" H 10800 4500 50  0001 C CNN
-	1    10800 4500
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:D_Photo D10
 U 1 1 5B756A92
 P 1650 7550
@@ -1691,28 +1449,6 @@ F 2 "LEDs:LED_D5.0mm" H 1600 7550 50  0001 C CNN
 F 3 "" H 1600 7550 50  0001 C CNN
 	1    1650 7550
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R18
-U 1 1 5B756A99
-P 2000 7550
-F 0 "R18" H 2030 7570 50  0000 L CNN
-F 1 "1K5" H 2030 7510 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 2000 7550 50  0001 C CNN
-F 3 "" H 2000 7550 50  0001 C CNN
-	1    2000 7550
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR064
-U 1 1 5B756AA2
-P 2150 7550
-F 0 "#PWR064" H 2150 7300 50  0001 C CNN
-F 1 "GND" H 2150 7400 50  0000 C CNN
-F 2 "" H 2150 7550 50  0001 C CNN
-F 3 "" H 2150 7550 50  0001 C CNN
-	1    2150 7550
-	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D_Photo D37
@@ -1726,28 +1462,6 @@ F 3 "" H 2500 7550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R20
-U 1 1 5B756B74
-P 2900 7550
-F 0 "R20" H 2930 7570 50  0000 L CNN
-F 1 "1K5" H 2930 7510 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 2900 7550 50  0001 C CNN
-F 3 "" H 2900 7550 50  0001 C CNN
-	1    2900 7550
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR065
-U 1 1 5B756B7D
-P 3050 7550
-F 0 "#PWR065" H 3050 7300 50  0001 C CNN
-F 1 "GND" H 3050 7400 50  0000 C CNN
-F 2 "" H 3050 7550 50  0001 C CNN
-F 3 "" H 3050 7550 50  0001 C CNN
-	1    3050 7550
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:D_Photo D39
 U 1 1 5B756CE4
 P 3450 7550
@@ -1757,28 +1471,6 @@ F 2 "LEDs:LED_D5.0mm" H 3400 7550 50  0001 C CNN
 F 3 "" H 3400 7550 50  0001 C CNN
 	1    3450 7550
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R22
-U 1 1 5B756CEB
-P 3800 7550
-F 0 "R22" H 3830 7570 50  0000 L CNN
-F 1 "1K5" H 3830 7510 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 3800 7550 50  0001 C CNN
-F 3 "" H 3800 7550 50  0001 C CNN
-	1    3800 7550
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR066
-U 1 1 5B756CF4
-P 3950 7550
-F 0 "#PWR066" H 3950 7300 50  0001 C CNN
-F 1 "GND" H 3950 7400 50  0000 C CNN
-F 2 "" H 3950 7550 50  0001 C CNN
-F 3 "" H 3950 7550 50  0001 C CNN
-	1    3950 7550
-	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D_Photo D41
@@ -1792,28 +1484,6 @@ F 3 "" H 4300 7550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R24
-U 1 1 5B757120
-P 4700 7550
-F 0 "R24" H 4730 7570 50  0000 L CNN
-F 1 "1K5" H 4730 7510 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 4700 7550 50  0001 C CNN
-F 3 "" H 4700 7550 50  0001 C CNN
-	1    4700 7550
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR067
-U 1 1 5B757129
-P 4850 7550
-F 0 "#PWR067" H 4850 7300 50  0001 C CNN
-F 1 "GND" H 4850 7400 50  0000 C CNN
-F 2 "" H 4850 7550 50  0001 C CNN
-F 3 "" H 4850 7550 50  0001 C CNN
-	1    4850 7550
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:D_Photo D43
 U 1 1 5B7571F6
 P 5250 7550
@@ -1823,28 +1493,6 @@ F 2 "LEDs:LED_D5.0mm" H 5200 7550 50  0001 C CNN
 F 3 "" H 5200 7550 50  0001 C CNN
 	1    5250 7550
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R28
-U 1 1 5B7571FD
-P 5600 7550
-F 0 "R28" H 5630 7570 50  0000 L CNN
-F 1 "1K5" H 5630 7510 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 5600 7550 50  0001 C CNN
-F 3 "" H 5600 7550 50  0001 C CNN
-	1    5600 7550
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR068
-U 1 1 5B757206
-P 5750 7550
-F 0 "#PWR068" H 5750 7300 50  0001 C CNN
-F 1 "GND" H 5750 7400 50  0000 C CNN
-F 2 "" H 5750 7550 50  0001 C CNN
-F 3 "" H 5750 7550 50  0001 C CNN
-	1    5750 7550
-	0    -1   -1   0   
 $EndComp
 Text HLabel 1050 4800 0    60   Output ~ 0
 IR0
@@ -1898,17 +1546,6 @@ F 1 "2K2" H 4830 2360 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 4800 2400 50  0001 C CNN
 F 3 "" H 4800 2400 50  0001 C CNN
 	1    4800 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR069
-U 1 1 5B6F6C56
-P 800 4300
-F 0 "#PWR069" H 800 4150 50  0001 C CNN
-F 1 "+5V" H 800 4440 50  0000 C CNN
-F 2 "" H 800 4300 50  0001 C CNN
-F 3 "" H 800 4300 50  0001 C CNN
-	1    800  4300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2292,61 +1929,23 @@ Wire Wire Line
 Wire Wire Line
 	10800 1100 10800 900 
 Wire Wire Line
-	1500 4500 1450 4500
-Wire Wire Line
-	1750 4500 1700 4500
-Wire Wire Line
-	2400 4500 2350 4500
-Wire Wire Line
-	2650 4500 2600 4500
-Wire Wire Line
-	3550 4500 3500 4500
-Wire Wire Line
-	4450 4500 4400 4500
-Wire Wire Line
-	5350 4500 5300 4500
-Wire Wire Line
 	5550 4500 5550 4250
-Wire Wire Line
-	6250 4500 6200 4500
 Wire Wire Line
 	6450 4500 6450 4250
 Wire Wire Line
-	7150 4500 7100 4500
-Wire Wire Line
 	7350 4500 7350 4250
-Wire Wire Line
-	8050 4500 8000 4500
 Wire Wire Line
 	8250 4500 8250 4250
 Wire Wire Line
-	8950 4500 8900 4500
-Wire Wire Line
-	9850 4500 9800 4500
-Wire Wire Line
-	10800 4500 10750 4500
-Wire Wire Line
-	1900 7550 1850 7550
-Wire Wire Line
 	1450 7550 1450 7300
-Wire Wire Line
-	2150 7550 2100 7550
 Wire Wire Line
 	2350 7550 2350 7300
 Wire Wire Line
-	3050 7550 3000 7550
-Wire Wire Line
 	3250 7300 3250 7550
-Wire Wire Line
-	3950 7550 3900 7550
 Wire Wire Line
 	4150 7550 4150 7300
 Wire Wire Line
-	4850 7550 4800 7550
-Wire Wire Line
 	5050 7300 5050 7550
-Wire Wire Line
-	5750 7550 5700 7550
 Wire Wire Line
 	1050 3900 1400 3900
 Wire Wire Line
@@ -2360,7 +1959,6 @@ Wire Wire Line
 Connection ~ 1050 3300
 Connection ~ 1050 3500
 Connection ~ 1050 3700
-Connection ~ 1050 3900
 Wire Wire Line
 	9150 4500 9150 4250
 Connection ~ 1950 4250
@@ -2388,17 +1986,14 @@ Wire Wire Line
 	2350 4500 2350 4700
 Wire Wire Line
 	2050 4700 2350 4700
-Connection ~ 2350 4500
 Wire Wire Line
 	1450 4500 1450 4800
 Wire Wire Line
 	1050 4800 1450 4800
-Connection ~ 1450 4500
 Wire Wire Line
 	1850 7550 1850 7000
 Wire Wire Line
 	1700 7000 1850 7000
-Connection ~ 1850 7550
 Wire Wire Line
 	4800 2300 4900 2300
 Connection ~ 4900 2300
@@ -2408,11 +2003,7 @@ Wire Wire Line
 	4900 2800 4900 2500
 Connection ~ 4900 2500
 Wire Wire Line
-	1050 4250 1050 3900
-Wire Wire Line
 	1050 4500 800  4500
-Wire Wire Line
-	800  4500 800  4300
 Wire Wire Line
 	8650 900  8450 900 
 Wire Wire Line
@@ -2521,8 +2112,6 @@ Wire Wire Line
 Wire Wire Line
 	1050 3900 1050 3700
 Wire Wire Line
-	1950 4250 1050 4250
-Wire Wire Line
 	2850 4250 1950 4250
 Wire Wire Line
 	3750 4250 2850 4250
@@ -2600,15 +2189,6 @@ Wire Wire Line
 	5050 4500 5050 4700
 Wire Wire Line
 	4750 4700 5050 4700
-Connection ~ 3250 4500
-Wire Wire Line
-	3250 4500 3300 4500
-Connection ~ 4150 4500
-Wire Wire Line
-	4150 4500 4200 4500
-Connection ~ 5050 4500
-Wire Wire Line
-	5050 4500 5100 4500
 Wire Wire Line
 	5850 4500 5950 4500
 Wire Wire Line
@@ -2645,24 +2225,6 @@ Wire Wire Line
 	10500 4500 10500 4700
 Wire Wire Line
 	10200 4700 10500 4700
-Connection ~ 10500 4500
-Wire Wire Line
-	10500 4500 10550 4500
-Connection ~ 9550 4500
-Wire Wire Line
-	9550 4500 9600 4500
-Connection ~ 8650 4500
-Wire Wire Line
-	8650 4500 8700 4500
-Connection ~ 7750 4500
-Wire Wire Line
-	7750 4500 7800 4500
-Connection ~ 6850 4500
-Wire Wire Line
-	6850 4500 6900 4500
-Connection ~ 5950 4500
-Wire Wire Line
-	5950 4500 6000 4500
 Wire Wire Line
 	2650 7550 2750 7550
 Wire Wire Line
@@ -2687,18 +2249,6 @@ Wire Wire Line
 	5450 7550 5450 7000
 Wire Wire Line
 	5300 7000 5450 7000
-Connection ~ 2750 7550
-Wire Wire Line
-	2750 7550 2800 7550
-Connection ~ 3650 7550
-Wire Wire Line
-	3650 7550 3700 7550
-Connection ~ 4550 7550
-Wire Wire Line
-	4550 7550 4600 7550
-Connection ~ 5450 7550
-Wire Wire Line
-	5450 7550 5500 7550
 Wire Wire Line
 	2550 6450 3850 6450
 Wire Wire Line
@@ -2809,4 +2359,22 @@ Wire Wire Line
 Connection ~ 4500 6650
 Wire Wire Line
 	4500 6650 4450 6650
+$Comp
+L power:+5V #PWR069
+U 1 1 5B6F6C56
+P 800 4150
+F 0 "#PWR069" H 800 4000 50  0001 C CNN
+F 1 "+5V" H 800 4290 50  0000 C CNN
+F 2 "" H 800 4150 50  0001 C CNN
+F 3 "" H 800 4150 50  0001 C CNN
+	1    800  4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  4150 800  4250
+Wire Wire Line
+	800  4250 1950 4250
+Connection ~ 800  4250
+Wire Wire Line
+	800  4250 800  4500
 $EndSCHEMATC

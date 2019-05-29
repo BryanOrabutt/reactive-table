@@ -5,9 +5,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
-Title ""
-Date ""
-Rev ""
+Title "Reactive LED Coffee Table"
+Date "2019-05-28"
+Rev "1"
 Comp ""
 Comment1 ""
 Comment2 ""

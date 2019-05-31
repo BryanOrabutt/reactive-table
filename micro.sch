@@ -173,7 +173,6 @@ NoConn ~ 6250 3800
 NoConn ~ 5100 4200
 NoConn ~ 5100 4300
 NoConn ~ 5100 3300
-NoConn ~ 5100 3200
 Wire Wire Line
 	6450 3300 6450 2650
 Connection ~ 6450 3300
@@ -218,4 +217,10 @@ Wire Wire Line
 	6250 3400 6450 3400
 Wire Wire Line
 	4400 3400 5100 3400
+Wire Wire Line
+	5100 3200 4900 3200
+Wire Wire Line
+	4900 3200 4900 3000
+Text HLabel 4900 3000 1    60   Input ~ 0
+PSOC_~OE
 $EndSCHEMATC
